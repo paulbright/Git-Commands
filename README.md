@@ -55,7 +55,7 @@ The git commands can be classified into different sections.
 * [git add](commands/git-add.md)
 * [git status](commands/git-status.md)
 * [git diff](commands/git-diff.md)
-* git commit
+* [git commit](commands/git-commit.md)
 * git reset
 * git rm
 * git mv

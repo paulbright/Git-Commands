@@ -16,16 +16,24 @@ for publishing yet another repository of git commands is because of the Feynman 
 Richard Feynman, you learn by teaching somebody else a topic in simple terms.
 
 ## Scenarios
+**Git Installation**
 The Git Installation and Setup scenarios are performed only once as part of the initial setup of
 git on a specific computer.
-* [Installation](scenarios/scenario0_installation.md)
-* [Initial Setup]
+* Installation
+* Initial Setup
 
+**Create Git Repository**
+There are two distinct ways in Git to create a local repository. The first is to create a new local
+repository from scratch and the second is to download/clone an existing repository.
+* Create Local Repository
+* Clone Remote Repository
+
+**Basic Git Usage**
 The following scenarios describe how a combination of git commands can be used to perform a specific
 task.
-* [Basic Git Commands](scenarios/scenario1_basic.md)
-* [Remote Repositories]
-* [Branching]
+* Basic Git Commands
+* Remote Repositories
+* Branching
 
 
 ## Reference
@@ -38,11 +46,11 @@ The git commands can be classified into different sections.
 
 **Create & Get Repositories**
 * [git init](commands/git-init.md)
-* git clone
+* [git clone](commands/git-clone.md)
 
 **Basic Snapshotting**
 * [git add](commands/git-add.md)
-* git status
+* [git status](commands/git-status.md)
 * git diff
 * git commit
 * git reset

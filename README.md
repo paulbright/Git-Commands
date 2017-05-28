@@ -61,7 +61,7 @@ The git commands can be classified into different sections.
 * [git mv](commands/git-mv.md)
 
 **Branching & Merging**
-* git branch
+* [git branch](commands/git-branch.md)
 * git checkout
 * git merge
 * git mergetool

@@ -58,7 +58,7 @@ The git commands can be classified into different sections.
 * [git commit](commands/git-commit.md)
 * [git reset](commands/git-reset.md)
 * [git rm](commands/git-rm.md)
-* git mv
+* [git mv](commands/git-mv.md)
 
 **Branching & Merging**
 * git branch

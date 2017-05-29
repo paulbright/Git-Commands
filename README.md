@@ -66,7 +66,7 @@ The git commands can be classified into different sections.
 * [git merge](commands/git-merge.md)
 * [git mergetool](commands/git-mergetool.md)
 * [git log](commands/git-log.md)
-* git stash
+* [git stash](commands/git-stash.md)
 * git tag
 
 **Sharing & Updating Projects**

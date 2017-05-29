@@ -73,7 +73,7 @@ The git commands can be classified into different sections.
 * [git fetch](commands/git-fetch.md)
 * [git pull](commands/git-pull.md)
 * [git push](commands/git-push.md)
-* git remote
+* [git remote](commands/git-remote.md)
 * git submodule
 
 ## Conclusion

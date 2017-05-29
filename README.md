@@ -72,7 +72,7 @@ The git commands can be classified into different sections.
 **Sharing & Updating Projects**
 * [git fetch](commands/git-fetch.md)
 * [git pull](commands/git-pull.md)
-* git push
+* [git push](commands/git-push.md)
 * git remote
 * git submodule
 

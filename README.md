@@ -70,8 +70,11 @@ The git commands can be classified into different sections.
 * [git tag](commands/git-tag.md)
 
 **Sharing & Updating Projects**
-* git
-* git
+* [git fetch](commands/git-fetch.md)
+* git pull
+* git push
+* git remote
+* git submodule
 
 ## Conclusion
 This page contains the different scenarios in which git is used in a day to day fashion

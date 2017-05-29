@@ -65,7 +65,7 @@ The git commands can be classified into different sections.
 * [git checkout](commands/git-checkout.md)
 * [git merge](commands/git-merge.md)
 * [git mergetool](commands/git-mergetool.md)
-* git log
+* [git log](commands/git-log.md)
 * git stash
 * git tag
 

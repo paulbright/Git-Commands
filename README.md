@@ -63,7 +63,7 @@ The git commands can be classified into different sections.
 **Branching & Merging**
 * [git branch](commands/git-branch.md)
 * [git checkout](commands/git-checkout.md)
-* git merge
+* [git merge](commands/git-merge.md)
 * git mergetool
 * git log
 * git stash
@@ -81,4 +81,4 @@ each command list the synopsis and also a number of examples on how to use the g
 Not all the options options and permutations are documented on this page, only the most used commands.
 For more information about the *git* commands, the official documentation can be found at the following link:
 
-* [GIT Documentation](https://git-scm.com/docs/git-init)
+* [GIT Documentation](https://git-scm.com/docs)

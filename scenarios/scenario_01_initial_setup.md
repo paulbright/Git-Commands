@@ -5,7 +5,7 @@ The git initial setup is performed only once after the installation is successfu
 
 **Your Identity**
 
-Git requires you to setup your user name and email address before you can use Git. The reason for this is that git uses this information as part of the commit function. To set your user name and email address, run the following commands within the terminal.
+Git requires you to setup your user name and email address before you can use git. The reason for this is that git uses this information as part of the commit function. To set your user name and email address, run the following commands within the terminal.
 
 ```bash
 $ git config --global user.name "Star-Lord"

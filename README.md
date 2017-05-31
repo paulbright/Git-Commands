@@ -21,22 +21,26 @@ Richard Feynman, you learn by teaching somebody else a topic in simple terms.
 The Git Installation and Setup scenarios are performed only once as part of the initial setup of
 git on a specific computer.
 * Installation
-* Initial Setup
+* [Initial Setup](scenarios/scenario_01_initial_setup.md)
 
 **Create Git Repository**
 
 There are two distinct ways in Git to create a local repository. The first is to create a new local
 repository from scratch and the second is to download/clone an existing repository.
 * Create Local Repository
+* Link Remote Repository
 * Clone Remote Repository
 
-**Basic Git Usage**
+**Basic Workflow Usage**
 
 The following scenarios describe how a combination of git commands can be used to perform a specific
 task.
-* Basic Git Commands
-* Remote Repositories
+* Basic Git Commands (Add, Status, Commit, Log)
+* Remote Repositories (Remote, Push, Pull)
+* Housekeeping (Rename, Move, Delete)
 * Branching
+* History
+* Ignoring Unwanted Files
 
 
 ## Reference
@@ -74,7 +78,7 @@ The git commands can be classified into different sections.
 * [git pull](commands/git-pull.md)
 * [git push](commands/git-push.md)
 * [git remote](commands/git-remote.md)
-* git submodule
+
 
 ## Conclusion
 This page contains the different scenarios in which git is used in a day to day fashion

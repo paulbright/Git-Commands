@@ -1,14 +1,15 @@
 # Git Initial Setup
-The Git setup is performed only once after the installation is successful. This page will will focus on the minimum set of properties that should be configured before you can use git.
+The git initial setup is performed only once after the installation is successful. This page will focus on the minimum set of properties that should be configured before you can use git.
 
 ## Set Username & Email
 
 **Your Identity**
+
 Git requires you to setup your user name and email address before you can use Git. The reason for this is that git uses this information as part of the commit function. To set your user name and email address, run the following commands within the terminal.
 
 ```bash
 $ git config --global user.name "Star-Lord"
-$ git config --global user.email "star-lord@knowhere.com"
+$ git config --global user.email "star.lord@knowhere.com"
 ```
 
 To ensure that your identity has been set correctly, you can execute the command below within a terminal. This command prints the user name, that has been set in the Global config file, out to the console.
@@ -22,7 +23,7 @@ This command prints the user email address, that has been set in the Global conf
 
 ```bash
 $ git config user.email
-# star-lord@knowhere.com
+# star.lord@knowhere.com
 ```
 
 Alternatively, the following command can be used to list all the properties that has been set in the global configuration file.
@@ -30,7 +31,7 @@ Alternatively, the following command can be used to list all the properties that
 ```bash
 $ git config --global --list
 # user.name=Star Lord
-# user.email=star-lord@knowhere.com
+# user.email=star.lord@knowhere.com
 ```
 
 ## Conclusion

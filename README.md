@@ -11,7 +11,7 @@ of different ways.
 
 ## Overview
 > This page came to life after I decided to learn git in a lot more details. I used numerous sources
-like books, tutorials and online courses and made notes as I started to learn git in detail. The reason
+like books, tutorials and online courses and made notes as I started to learn git. The reason
 for publishing yet another repository of git commands is because of the Feynman Technique. According to
 Richard Feynman, you learn by teaching somebody else a topic in simple terms.
 
@@ -20,7 +20,7 @@ Richard Feynman, you learn by teaching somebody else a topic in simple terms.
 
 The Git Installation and Setup scenarios are performed only once as part of the initial setup of
 git on a specific computer.
-* Installation
+* [Installation](scenarios/scenario_00_installation.md)
 * [Initial Setup](scenarios/scenario_01_initial_setup.md)
 
 **Create Git Repository**

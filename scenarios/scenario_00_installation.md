@@ -12,6 +12,7 @@ This page contains some of the commands to install git, and also links to pages 
 Installing git on a linux distribution is made easy with the help of the package manager of the linux distribution. Each linux distribution has a different package manager, but the concept is the same.
 
 **Debian-based Distributions (Ubuntu)**
+
 APT (Advanced Package Tool) is an advanced interface to the Debian packaging system. The apt-get program forms part of the APT tool. The apt-get program retrieves and install packages from multiple sources, and is used to install the git.
 
 The following commands should be typed within a terminal on a Debian-based operating system like Ubuntu to install git.
@@ -23,6 +24,7 @@ $ sudo apt-get install git
 ```
 
 **RedHat-based Distributions**
+
 YUM (Yellowdog Updater Modified) is an open source command-line package management tool for RPM (RedHat Package Manager) based Linux systems. YUM is used to query and fetch packages from repositories, also to install and uninstall these packages. YUM can be used to install git on RPM-based linux distributions.
 
 The following commands should be typed within a terminal on a RPM-based operating system like Centos or RHEL to install git.

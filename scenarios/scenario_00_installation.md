@@ -55,7 +55,16 @@ Depending on the output of the command, you can determine if it is installed or 
 1. Download the Git for Mac Installer from [here](https://sourceforge.net/projects/git-osx-installer/files/).
 2. After the download has completed successfully, launch the installation files. Follow the Git Setup wizzard screens by selecting the applicable options and complete the installation.
 
+**Install Git with Homebrew**
+
+If you already have Homebrew installed on your MAC, you can run the following command within a terminal.
+
+```bash
+$ brew install git
+```
+
 **Other**
+
 Click [here](http://git-scm.com/download/mac) for more information on how to install git on a MAC.
 
 

@@ -30,17 +30,33 @@ YUM (Yellowdog Updater Modified) is an open source command-line package manageme
 The following commands should be typed within a terminal on a RPM-based operating system like Centos or RHEL to install git.
 
 ```bash
-sudo yum upgrade
-sudo yum install git
+$ sudo yum upgrade
+$ sudo yum install git
 ```
 
 ### Installing Git on Windows
-Click [here](http://git-for-windows.github.io) to download and install Git.
+To install git on windows, follow the instructions below:
 
+1. Click [here](http://git-for-windows.github.io) to download and install Git. Choose between the 32-bit or 64-bit options.
+2. After the download has completed successfully, launch the installation files. Follow the Git Setup wizzard screens by selecting the applicable options and complete the installation.
 
 ### Installing Git on Mac
-There are several ways to install Git on a Mac. In fact, if you've installed XCode (or it's Command Line Tools), Git may already be installed. To find out, open a terminal and enter git --version.
-Click [here](http://git-scm.com/download/mac) to download and install Git.
+There are several ways to install Git on a Mac. You might already have git installed as part of XCode or Command Line Tools, so first check if it is not already installed.
+
+Open a terminal and enter the following command.
+
+```bash
+ $ git --version
+ ```
+Depending on the output of the command, you can determine if it is installed or not. If the output is the version of git, then git is installed, anything else and you need to install git.
+
+**Git for Mac Installer**
+
+1. Download the Git for Mac Installer from [here](https://sourceforge.net/projects/git-osx-installer/files/).
+2. After the download has completed successfully, launch the installation files. Follow the Git Setup wizzard screens by selecting the applicable options and complete the installation.
+
+**Other**
+Click [here](http://git-scm.com/download/mac) for more information on how to install git on a MAC.
 
 
 ## Validate Installation

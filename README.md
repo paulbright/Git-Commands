@@ -27,7 +27,7 @@ git on a specific computer.
 
 There are two distinct ways in Git to create a local repository. The first is to create a new local
 repository from scratch and the second is to download/clone an existing repository.
-* Create Local Repository
+* [Create Local Repository](scenarios/scenario_10_create_local_repo.md)
 * Link Remote Repository
 * Clone Remote Repository
 

@@ -1,5 +1,5 @@
 # Git Initial Setup
-The git initial setup is performed only once after the installation is successful. This page will focus on the minimum set of properties that should be configured before you can use git.
+The git initial setup is performed only once after the installation is successful. This page will focus on the minimum set of properties that should be configured before you can use git. -- TO BE DELETED -- 
 
 ## Git Command(s)
 The following git commands are used to perform the initial setup of git by setting the user name and email properties.

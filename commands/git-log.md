@@ -7,6 +7,13 @@ The *git log* command show commit logs.
 git log [<options>] [<revision range>] [[\--] <path>…​]
 ```
 
+$ git log --pretty=oneline --max-count=2
+$ git log --pretty=oneline --since='5 minutes ago'
+$ git log --pretty=oneline --until='5 minutes ago'
+$ git log --pretty=oneline --author=<your name>
+$ git log --pretty=oneline --all
+$ git log --all --pretty=format:'%h %cd %s (%an)' --since='7 days ago'
+
 ## Conclusion
 There are many more ways to show commit logs by making use
 of the *git log* command. Not all the options options and permutations are documented

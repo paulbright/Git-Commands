@@ -1,15 +1,27 @@
 # Create Local Repository
-D
+This scenario describe how to create a new local git repository from scratch. The scenario starts by using basic bash commands to determine the current directory structure and then how to create a new local git repository. The scenario further describe how to list the files and directories within the local git repository.
 
-## Create Local Repo on Linux
+## Git Command
+The following set of git commands is used to create a local git repository.
+**EXECUTE:**
+
+```bash
+$ git init my_git_repo1
+```
+
+## Scenario: Create a Local Repository
 The following examples are created in my Ubuntu 17.04 server.
 
 **EXECUTE:**
+
 The pwd command is used to print the working directly and allows us to determine in which directly we are currently in.
 ```bash
 $ pwd
 # /home/starlord/learing-git
 ```
+
+**EXECUTE:**
+
 
 ```bash
 $ git init my_git_repo1

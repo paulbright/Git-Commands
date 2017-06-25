@@ -9,6 +9,8 @@ The following git commands are used to perform the initial setup of git by setti
 # ---------- Set Properties ----------
 $ git config --global user.name "Star-Lord"
 $ git config --global user.email "star.lord@knowhere.com"
+$ git config --global core.autocrlf input
+$ git config --global core.safecrlf true
 ```
 ```bash
 # ----------  List Properties ----------
@@ -17,7 +19,7 @@ $ git config user.email
 $ git config --global --list
 ```
 
-## Scenario: Initial Setup (Username & Email)
+## Scenario: Initial Setup (Username, Email & Line Ending)
 
 ### Step 1: Setup Your Identity
 Git requires you to setup your user name and email address before you can use git. The reason for this is that git uses this information as part of the commit function. To set your user name and email address, run the following commands within the terminal.
@@ -45,7 +47,26 @@ $ git config user.email
 # star.lord@knowhere.com
 ```
 
-### Step 3: Print All Properties
+### Step 3: Setup Line Ending Properties
+Windows uses both a carriage-return character and a linefeed character for newlines in its files, whereas Mac and Linux systems use only the linefeed character. These properties ensure that will not run into line-ending issues when multiple people are working on both Windows, Unix and Mac.
+
+Unix/MAC Users:
+
+***EXECUTE:***
+```bash
+$ git config --global core.autocrlf input
+$ git config --global core.safecrlf true
+```
+
+Windows Users:
+
+***EXECUTE:***
+```bash
+$ git config --global core.autocrlf true
+$ git config --global core.safecrlf true
+```
+
+### Step 4: Print All Properties
 Alternatively, the following command can be used to list all the properties that has been set in the global configuration file.
 
 ***EXECUTE:***

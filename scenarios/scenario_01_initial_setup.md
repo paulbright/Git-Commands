@@ -1,7 +1,16 @@
 # Git Initial Setup
 The git initial setup is performed only once after the installation is successful. This page will focus on the minimum set of properties that should be configured before you can use git.
 
-## Set Username & Email
+## Git Command(s)
+The following git commands are used to perform the initial setup of git by setting the user name and email properties.
+
+***EXECUTE:***
+```bash
+$ git config --global user.name "Star-Lord"
+$ git config --global user.email "star.lord@knowhere.com"
+```
+
+## Scenario: Initial Setup (Username & Email)
 
 **Your Identity**
 

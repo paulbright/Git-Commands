@@ -2,11 +2,12 @@
 This scenario describe how to create a new local git repository from scratch. The scenario starts by using basic bash commands to determine the current directory structure and then how to create a new local git repository. The scenario further describe how to list the files and directories within the local git repository.
 
 ## Git Command
-The following set of git commands is used to create a local git repository.
+The following git command is used to create a local git repository.
+
 **EXECUTE:**
 
 ```bash
-$ git init my_git_repo1
+$ git init [repo name]
 ```
 
 ## Scenario: Create a Local Repository

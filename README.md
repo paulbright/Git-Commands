@@ -15,6 +15,8 @@ like books, tutorials and online courses and made notes as I started to learn gi
 for publishing yet another repository of git commands is because of the Feynman Technique. According to
 Richard Feynman, you learn by teaching somebody else a topic in simple terms.
 
+## Cheatsheet
+* [Git Cheatsheet](cheatsheet/git_cheatsheet.md)
 ## Scenarios
 **Git Installation**
 

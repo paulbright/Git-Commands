@@ -33,13 +33,14 @@ $ git init my_git_repo1
 # Initialized empty Git repository in /home/starlord/learing-git/my_git_repo1/.git
 ```
 
-### Step 3: Go to Local Repository
+### Step 3: View the Local Repository
+
+Go to the new directory call _my_gitrepo1_ and list all the contents of the directory. You will see that there is no files in the newly created git repository except for the hidden _git_ directory.
+
+***EXECUTE:***
 
 ```bash
 $ cd my_git_repo1
-```
-
-```bash
 $ ls -la
 # total 12
 # drwxrwxr-x 3 starlord starlord 4096 Jun 22 11:06 .
@@ -47,7 +48,11 @@ $ ls -la
 # drwxrwxr-x 7 starlord starlord 4096 Jun 22 11:06 .git
 ```
 
-To get a better understanding of all the
+### Step 4: View the Local Repository Tree Structure
+To get a better understanding of all the content within the local repository, you can execute the _tree_ command within the directory and it will print all the contents of the local repository out in a tree structure out on the screen. Please note that the _tree_ command is not a standard bash command and needs to be installed by your package manager of your operating system.
+
+***EXECUTE:***
+
 ```bash
 $ tree -a
 ```

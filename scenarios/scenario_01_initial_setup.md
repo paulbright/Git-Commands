@@ -6,10 +6,10 @@ The following git commands are used to perform the initial setup of git by setti
 
 ***EXECUTE:***
 ```bash
-# Set Properties
+# ---------- Set Properties ----------
 $ git config --global user.name "Star-Lord"
 $ git config --global user.email "star.lord@knowhere.com"
-# List Properties
+# ----------  List Properties ---------- 
 $ git config user.name
 $ git config user.email
 $ git config --global --list

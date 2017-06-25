@@ -12,8 +12,7 @@ $ git config --global user.email "star.lord@knowhere.com"
 
 ## Scenario: Initial Setup (Username & Email)
 
-**Your Identity**
-
+### Step 1: Setup Your Identity
 Git requires you to setup your user name and email address before you can use git. The reason for this is that git uses this information as part of the commit function. To set your user name and email address, run the following commands within the terminal.
 
 ***EXECUTE:***
@@ -22,6 +21,7 @@ $ git config --global user.name "Star-Lord"
 $ git config --global user.email "star.lord@knowhere.com"
 ```
 
+### Step 2: Print Identity Properties
 To ensure that your identity has been set correctly, you can execute the command below within a terminal. This command prints the user name, that has been set in the Global config file, out to the console.
 
 ***EXECUTE:***
@@ -38,6 +38,7 @@ $ git config user.email
 # star.lord@knowhere.com
 ```
 
+### Step 3: Print All Properties
 Alternatively, the following command can be used to list all the properties that has been set in the global configuration file.
 
 ***EXECUTE:***

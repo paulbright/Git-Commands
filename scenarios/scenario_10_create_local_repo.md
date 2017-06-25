@@ -22,7 +22,6 @@ The first step is to determine working directory to ensure the local git reposit
 $ pwd
 # /home/starlord/learing-git
 ```
-The command prints the working directory out on the screen. The new local repository will be created within a directory of our name within this working directory. If this is not the correct place for you to create a new local git repository, you can change the directory to the appropriate working directory.
 
 ### Step 2: Create Local Repository
 The second step is to create the local git repository with an appropriate name. The name will be used to create a directory within the current working directory. The new local git repository will also have a hidden _.git_ directory which contains all the hooks, config and branches that makes up a git repository.

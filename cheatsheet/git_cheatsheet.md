@@ -36,6 +36,7 @@ $ git blame [filename]
 $ git show [commit]:[filename]
 
 $ git log
+$ git log --pretty=oneline
 $ git log -p [filename/directory]
 ```
 ### Add Files & Commit

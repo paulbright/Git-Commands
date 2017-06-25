@@ -11,23 +11,30 @@ $ git init [repo name]
 ```
 
 ## Scenario: Create a Local Repository
-The following examples are created in my Ubuntu 17.04 server.
+The following scenario is created in my Ubuntu 17.04 server.
 
-**EXECUTE:**
+### Step1: Determine the working directory
+The first step is to determine working directory to ensure the local git repository is created in the correct place. The pwd command is used to print the working directly and allows us to determine in which directly we are currently in.
 
-The pwd command is used to print the working directly and allows us to determine in which directly we are currently in.
+***EXECUTE:***
+
 ```bash
 $ pwd
 # /home/starlord/learing-git
 ```
+The command prints the working directory out on the screen. The new local repository will be created within a directory of our name within this working directory. If this is not the correct place for you to create a new local git repository, you can change the directory to the appropriate working directory.
 
-**EXECUTE:**
+### Step 2: Create Local Repository
+The second step is to create the local git repository with an appropriate name. The name will be used to create a directory within the current working directory. The new local git repository will also have a hidden _.git_ directory which contains all the hooks, config and branches that makes up a git repository.
 
+***EXECUTE:***
 
 ```bash
 $ git init my_git_repo1
 # Initialized empty Git repository in /home/starlord/learing-git/my_git_repo1/.git
 ```
+
+### Step 3: Go to Local Repository
 
 ```bash
 $ cd my_git_repo1

@@ -19,14 +19,6 @@ $ git config user.email
 $ git config --global --list
 ```
 
-<pre class="lang:shell theme:twilight" title="Git Commands">
-# This command
-git config --global user.name "Star-Lord"
-git config --global user.email "star.lord@knowhere.com"
-git config --global core.autocrlf input
-git config --global core.safecrlf true
-</pre>
-
 ## Scenario: Initial Setup (Username, Email & Line Ending)
 
 ### Step 1: Setup Your Identity

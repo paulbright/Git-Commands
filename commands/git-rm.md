@@ -3,26 +3,27 @@ The *git rm* command removes files from the working tree and from the index.
 
 ## Synopsis
 ```
-git rm [-f | --force] [-n] [-r] [--cached] [--ignore-unmatch] [--quiet] [--] <file>…​
+git rm [-f | --force] [-n] [-r] [--cached] [--ignore-unmatch] [--quiet] [--] <file>…
 ```
 
 ## Examples
-#### Remove a file from the Index and from the Working Directory
+####Example 1:  Remove a file from the Index and from the Working Directory
+This command removes a filename called filename.txt from git index and from the working directory. 
 ```
 $ git rm filename.txt
 ```
 
-#### Remove a directory from the Index and from the Working Directory
+####Example 2:  Remove a directory from the Index and from the Working Directory
 ```
 $ git rm -r directory_name
 ```
 
-#### Remove a file from the Index, but not from the working directory
+####Example 4:  Remove a file from the Index, but not from the working directory
 ```
 $ git rm --cached filename.txt
 ```
 
-#### Remove a directory from the Index but not from the working directory
+####Example 4:  Remove a directory from the Index but not from the working directory
 ```
 $ git rm --cached -r directory_name
 ```

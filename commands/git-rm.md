@@ -7,22 +7,22 @@ git rm [-f | --force] [-n] [-r] [--cached] [--ignore-unmatch] [--quiet] [--] <fi
 ```
 
 ## Examples
-### Remove a file from the Index and from the Working Directory
+#### Remove a file from the Index and from the Working Directory
 ```
 $ git rm filename.txt
 ```
 
-### Remove a directory from the Index and from the Working Directory
+#### Remove a directory from the Index and from the Working Directory
 ```
 $ git rm -r directory_name
 ```
 
-### Remove a file from the Index, but not from the working directory
+#### Remove a file from the Index, but not from the working directory
 ```
 $ git rm --cached filename.txt
 ```
 
-### Remove a directory from the Index but not from the working directory
+#### Remove a directory from the Index but not from the working directory
 ```
 $ git rm --cached -r directory_name
 ```

@@ -15,7 +15,22 @@ $ git config user.name
 $ git config user.email
 $ git config --global --list
 ```
+### Git Colors
+```bash
+$ git config --global color.ui "auto"
+$ git config --global color.branch.current "yellow reverse"
+$ git config --global color.branch.local "yellow"
+$ git config --global color.branch.remote "green"
 
+$ git config --global color.status.added "yellow"
+$ git config --global color.status.changed "green"
+$ git config --global color.status.untracked "cyan"
+
+$ git config --global color.diff.meta "yellow bold"
+$ git config --global color.diff.frag "magenta bold"
+$ git config --global color.diff.old  "red bold"
+$ git config --global color.diff.new  "green bold"
+```
 ### Create Git repository
 ```bash
 $ git init

@@ -15,7 +15,10 @@ $ git config user.name
 $ git config user.email
 $ git config --global --list
 ```
-
+### Git Colors
+```bash
+$ git config --global color.ui "auto"
+```
 ### Create Git repository
 ```bash
 $ git init
